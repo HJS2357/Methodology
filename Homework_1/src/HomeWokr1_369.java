@@ -20,7 +20,7 @@ public class HomeWokr1_369 {
 	    
 	    int f=1;                         // 예외 처리를 위한 변수 설정
 	    
-		if(integer > 100) {
+		if(integer > 100 | integer < 0) {
 			System.out.print("unexpected input, system off.");   // 예외 입력 처리
 			f=0;
 		}
